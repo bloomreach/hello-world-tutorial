@@ -1,0 +1,5 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/myproject/hst:components/simplecomponent:
+      jcr:primaryType: hst:component
+      hst:componentclassname: org.example.components.SimpleComponent

@@ -1,0 +1,55 @@
+/content/documents/myproject/hello-world:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+  jcr:uuid: 4869ad36-f830-4705-b8f1-3dac0c0c1280
+  hippo:name: Hello World
+  hippo:versionHistory: 19cda575-8afe-43aa-94bd-f221aa92fc58
+  /hello-world[1]:
+    jcr:primaryType: myproject:simpledocument
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 94978943-b9aa-40d1-95d3-3022c70c8789
+    hippo:availability: []
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2018-11-29T11:15:31.533+13:00
+    hippostdpubwf:lastModificationDate: 2018-11-29T11:15:31.533+13:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippotranslation:id: ee2defb7-4f8d-4998-9145-fa6bb6b1bf98
+    hippotranslation:locale: en
+    myproject:title: Hello, Title
+    /myproject:content:
+      jcr:primaryType: hippostd:html
+      hippostd:content: <p>Hello, Content</p>
+  /hello-world[2]:
+    jcr:primaryType: myproject:simpledocument
+    jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+    jcr:uuid: 3be3b230-b01a-4980-be9b-b98f53b20621
+    hippo:availability: [preview]
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2018-11-29T11:15:31.533+13:00
+    hippostdpubwf:lastModificationDate: 2018-11-29T11:15:48.439+13:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippotranslation:id: ee2defb7-4f8d-4998-9145-fa6bb6b1bf98
+    hippotranslation:locale: en
+    myproject:title: Hello, Title
+    /myproject:content:
+      jcr:primaryType: hippostd:html
+      hippostd:content: <p>Hello, Content</p>
+  /hello-world[3]:
+    jcr:primaryType: myproject:simpledocument
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 85ed2440-84b9-43cf-a9a8-0b8dd1312e2e
+    hippo:availability: [live]
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2018-11-29T11:15:31.533+13:00
+    hippostdpubwf:lastModificationDate: 2018-11-29T11:15:48.439+13:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2018-11-29T11:15:50.911+13:00
+    hippotranslation:id: ee2defb7-4f8d-4998-9145-fa6bb6b1bf98
+    hippotranslation:locale: en
+    myproject:title: Hello, Title
+    /myproject:content:
+      jcr:primaryType: hippostd:html
+      hippostd:content: <p>Hello, Content</p>

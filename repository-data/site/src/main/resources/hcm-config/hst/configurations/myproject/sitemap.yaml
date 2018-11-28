@@ -2,3 +2,7 @@ definitions:
   config:
     /hst:hst/hst:configurations/myproject/hst:sitemap:
       jcr:primaryType: hst:sitemap
+      /root:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/home
+        hst:relativecontentpath: hello-world

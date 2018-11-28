@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/myproject/hst:pages/home:
+      jcr:primaryType: hst:component
+      hst:template: homepage
+      hst:referencecomponent: hst:components/simplecomponent
