@@ -1,0 +1,4 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/myproject/hst:sitemap:
+      jcr:primaryType: hst:sitemap
